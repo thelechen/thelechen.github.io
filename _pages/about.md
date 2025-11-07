@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>AI Researcher at Argonne National Laboratory</a>. LLM, HPC, AI4Code 
+subtitle: <a href='#'>AI Researcher at Argonne National Laboratory</a>. LLM, HPC, AI4Code
 
 profile:
   align: right
