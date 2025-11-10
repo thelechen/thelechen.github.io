@@ -2,15 +2,15 @@
    Custom styles for news tags
    ============================ */
 
-   /* Reset base font size back to normal (theme-like) */
+/* Reset base font size back to normal (theme-like) */
 
 html {
-  font-size: 18px;  /* 可以微调成 17 / 19px，看哪一个更像右边旧版 */
+  font-size: 18px; /* 可以微调成 17 / 19px，看哪一个更像右边旧版 */
 }
 
 @media (max-width: 768px) {
   html {
-    font-size: 16px;  /* 手机上稍微小一点 */
+    font-size: 16px; /* 手机上稍微小一点 */
   }
 }
 
