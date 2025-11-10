@@ -5,14 +5,11 @@
 /* Reset base font size back to normal (theme-like) */
 
 html {
-  font-size: 18px; /* 可以微调成 17 / 19px，看哪一个更像右边旧版 */
+  font-size: 18px;
+  /* 可以微调成 17 / 19px，看哪一个更像右边旧版 */
 }
 
-@media (max-width: 768px) {
-  html {
-    font-size: 16px; /* 手机上稍微小一点 */
-  }
-}
+
 
 .news-date {
   font-weight: 500;
@@ -49,8 +46,131 @@ html {
   color: #000;
 }
 
+.news-tag.project {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.news-tag.service {
+  background-color: #e53935;
+  color: #fff;
+}
+
+.news-tag.presentation {
+  background-color: #fb8c00;
+  color: #fff;
+}
+
+.news-tag.dataset {
+  background-color: #8d6e63;
+  color: #fff;
+}
+
+.news-tag.software {
+  background-color: #424242;
+  color: #fff;
+}
+
+.news-tag.award {
+  background-color: #ab47bc;
+  color: #fff;
+}
+
+.news-tag.media {
+  background-color: #00c853;
+  color: #fff;
+}
+
 /* hover 小亮一点 */
 .news-tag:hover {
   filter: brightness(1.15);
   transition: filter 0.2s ease-in-out;
+}
+
+.news-filter {
+  margin-bottom: 0.75rem;
+}
+
+.news-filter-btn {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 4px 4px 0;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.news-filter-btn:hover {
+  background: #e0e0e0;
+}
+
+.news-filter-btn.active {
+  background: #424242;
+  color: #fff;
+  border-color: #424242;
+}
+
+/* 让筛选按钮用和 tag 一样的颜色 */
+.news-filter-btn[data-filter="publication"] {
+  background-color: #7e57c2;
+  color: #fff;
+  border-color: #7e57c2;
+}
+.news-filter-btn[data-filter="activity"] {
+  background-color: #43a047;
+  color: #fff;
+  border-color: #43a047;
+}
+.news-filter-btn[data-filter="grant"] {
+  background-color: #fdd835;
+  color: #000;
+  border-color: #fdd835;
+}
+.news-filter-btn[data-filter="project"] {
+  background-color: #2196f3;
+  color: #fff;
+  border-color: #2196f3;
+}
+.news-filter-btn[data-filter="service"] {
+  background-color: #e53935;
+  color: #fff;
+  border-color: #e53935;
+}
+.news-filter-btn[data-filter="presentation"] {
+  background-color: #fb8c00;
+  color: #fff;
+  border-color: #fb8c00;
+}
+.news-filter-btn[data-filter="dataset"] {
+  background-color: #8d6e63;
+  color: #fff;
+  border-color: #8d6e63;
+}
+.news-filter-btn[data-filter="software"] {
+  background-color: #424242;
+  color: #fff;
+  border-color: #424242;
+}
+.news-filter-btn[data-filter="award"] {
+  background-color: #ab47bc;
+  color: #fff;
+  border-color: #ab47bc;
+}
+
+/* Hover 效果稍微亮一点 */
+.news-filter-btn:hover {
+  filter: brightness(1.15);
+}
+
+/* Active（当前选择）加个阴影边框提升视觉 */
+.news-filter-btn.active {
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.15) inset;
+}
+
+.news-filter-btn[data-filter="all"] {
+  background-color: #e0e0e0;
+  color: #000;
+  border-color: #ccc;
 }

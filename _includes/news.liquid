@@ -1,21 +1,47 @@
 <div class="news">
   {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
-      <table class="table table-sm table-borderless align-middle">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
+    {% assign news_sorted = site.news | sort: "date" | reverse %}
+    {% assign news_size = news_sorted | size %}
+
+    {%- comment -%}
+      如果 include.limit 为 true（主页 about 中），只显示前几条，不显示筛选按钮
+    {%- endcomment -%}
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = news_size %}
+    {% endif %}
+
+    {%- comment -%}
+      只有在 /news 页面（没传 limit）时才显示筛选按钮
+    {%- endcomment -%}
+    {% unless include.limit %}
+      {%- comment -%}
+        收集所有出现过的 type，生成按钮
+      {%- endcomment -%}
+      {% assign types = '' | split: '' %}
+      {% for item in news_sorted %}
+        {% if item.type and item.type != '' %}
+          {% unless types contains item.type %}
+            {% assign types = types | push: item.type %}
+          {% endunless %}
         {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
+      {% endfor %}
+
+      <div class="news-filter">
+        <button class="news-filter-btn active" data-filter="all">All</button>
+        {% for t in types %}
+          <button class="news-filter-btn" data-filter="{{ t | downcase }}">
+            {{ t | capitalize }}
+          </button>
+        {% endfor %}
+      </div>
+    {% endunless %}
+
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless align-middle">
+        {% for item in news_sorted limit: news_limit %}
+          <tr class="news-row" data-type="{{ item.type | downcase }}">
             <th scope="row" style="width: 22%; white-space: nowrap;">
               <span class="news-date">{{ item.date | date: '%b %d, %Y' }}</span>
               {% if item.type %}
@@ -35,6 +61,42 @@
         {% endfor %}
       </table>
     </div>
+
+    {%- comment -%}
+      只有在完整 /news 页面时加载筛选脚本（避免主页 about 也加载）
+    {%- endcomment -%}
+    {% unless include.limit %}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var buttons = document.querySelectorAll('.news-filter-btn');
+          var rows = document.querySelectorAll('.news-row');
+
+          if (!buttons.length || !rows.length) return;
+
+          buttons.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+              var filter = this.getAttribute('data-filter');
+
+              // 高亮当前按钮
+              buttons.forEach(function (b) {
+                b.classList.remove('active');
+              });
+              this.classList.add('active');
+
+              // 筛选行
+              rows.forEach(function (row) {
+                var type = row.getAttribute('data-type');
+                if (!filter || filter === 'all' || type === filter) {
+                  row.style.display = '';
+                } else {
+                  row.style.display = 'none';
+                }
+              });
+            });
+          });
+        });
+      </script>
+    {% endunless %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
