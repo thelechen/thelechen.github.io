@@ -1,9 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>AI Researcher at Argonne National Laboratory</a>. LLM, HPC, AI4Code
-
+subtitle: <span style="color:#6f42c1;">AI Researcher at Argonne National Laboratory</span>. LLM, HPC, AI4Code
 profile:
   align: right
   image: prof_pic.jpg
