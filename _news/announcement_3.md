@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2025-09-10 08:10:00-0400
+type: publication
 inline: true
 related_posts: false
 ---

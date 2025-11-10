@@ -1,0 +1,56 @@
+/* ============================
+   Custom styles for news tags
+   ============================ */
+
+   /* Reset base font size back to normal (theme-like) */
+
+html {
+  font-size: 18px;  /* 可以微调成 17 / 19px，看哪一个更像右边旧版 */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;  /* 手机上稍微小一点 */
+  }
+}
+
+.news-date {
+  font-weight: 500;
+  color: #444;
+  margin-right: 4px;
+}
+
+/* 彩色标签 pill */
+.news-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 2px 7px;
+  border-radius: 999px;
+  margin-left: 4px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* 分类配色 */
+.news-tag.activity {
+  background-color: #43a047;
+  color: #fff;
+}
+
+.news-tag.publication {
+  background-color: #7e57c2;
+  color: #fff;
+}
+
+.news-tag.grant {
+  background-color: #fdd835;
+  color: #000;
+}
+
+/* hover 小亮一点 */
+.news-tag:hover {
+  filter: brightness(1.15);
+  transition: filter 0.2s ease-in-out;
+}
