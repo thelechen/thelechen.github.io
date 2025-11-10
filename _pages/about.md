@@ -12,7 +12,7 @@ profile:
     <p>
       ✉️ lechen[AT]anl.gov<br>
       💻 DSL, Argonne National Laboratory<br>
-      🌆 Chicagoland
+      🌆 Chicagoland, Illinois
     </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
