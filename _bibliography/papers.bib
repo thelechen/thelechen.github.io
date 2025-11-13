@@ -1,24 +1,38 @@
 ---
 ---
 @inproceedings{ding2023hpc,
-  title={Hpc-gpt: Integrating large language model for high-performance computing},
-  author={Ding, Xianzhong and Chen, Le and Emani, Murali and Liao, Chunhua and Lin, Pei-Hung and Vanderbruggen, Tristan and Xie, Zhen and Cerpa, Alberto and Du, Wan},
-  booktitle={Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
-  pages={951--960},
-  bibtex_show={true},
-  year={2023}
+author = {Ding, Xianzhong and Chen, Le and Emani, Murali and Liao, Chunhua and Lin, Pei-Hung and Vanderbruggen, Tristan and Xie, Zhen and Cerpa, Alberto and Du, Wan},
+title = {HPC-GPT: Integrating Large Language Model for High-Performance Computing},
+year = {2023},
+isbn = {9798400707858},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3624062.3624172},
+doi = {10.1145/3624062.3624172},
+abstract = {Large Language Models (LLMs), including the LLaMA model, have exhibited their efficacy across various general-domain natural language processing (NLP) tasks. However, their performance in high-performance computing (HPC) domain tasks has been less than optimal due to the specialized expertise required to interpret the model’s responses. In response to this challenge, we propose HPC-GPT, a novel LLaMA-based model that has been supervised fine-tuning using generated QA (Question-Answer) instances for the HPC domain. To evaluate its effectiveness, we concentrate on two HPC tasks: managing AI models and datasets for HPC, and data race detection. By employing HPC-GPT, we demonstrate comparable performance with existing methods on both tasks, exemplifying its excellence in HPC-related scenarios. Our experiments on open-source benchmarks yield extensive results, underscoring HPC-GPT’s potential to bridge the performance gap between LLMs and HPC-specific tasks. With HPC-GPT, we aim to pave the way for LLMs to excel in HPC domains, simplifying the utilization of language models in complex computing applications.},
+booktitle = {Proceedings of the SC '23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis},
+pages = {951–960},
+numpages = {10},
+keywords = {Data Race Detection, High-performance Computing, Large Language Model, Neural Network., OpenMP},
+location = {Denver, CO, USA},
+series = {SC-W '23}
 }
 
 @inproceedings{chen2023lm4hpc,
-  bibtex_show={true},
-  title={LM4HPC: Towards Effective Language Model Application in High-Performance Computing},
-  author={Chen, Le and Lin, Pei-Hung and Vanderbruggen, Tristan and Liao, Chunhua and Emani, Murali and De Supinski, Bronis},
-  booktitle={International Workshop on OpenMP},
-  pages={18--33},
-  year={2023},
-  organization={Springer},
-  bibtex_show={true},
-  selected={false},
+author = {Chen, Le and Lin, Pei-Hung and Vanderbruggen, Tristan and Liao, Chunhua and Emani, Murali and de Supinski, Bronis},
+title = {LM4HPC: Towards Effective Language Model Application in&nbsp;High-Performance Computing},
+year = {2023},
+isbn = {978-3-031-40743-7},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-40744-4_2},
+doi = {10.1007/978-3-031-40744-4_2},
+abstract = {In recent years, language models (LMs), such as GPT-4, have been widely used in multiple domains, including natural language processing, visualization, and so on. However, applying them for analyzing and optimizing high-performance computing (HPC) software is still challenging due to the lack of HPC-specific support. In this paper, we design the LM4HPC framework to facilitate the research and development of HPC software analyses and optimizations using LMs. Tailored for supporting HPC datasets, AI models, and pipelines, our framework is built on top of a range of components from different levels of the machine learning software stack, with Hugging Face-compatible APIs. Using three representative tasks, we evaluated the prototype of our framework. The results show that LM4HPC can help users quickly evaluate a set of state-of-the-art models and generate insightful leaderboards.},
+booktitle = {OpenMP: Advanced Task-Based, Device and Compiler Programming: 19th International Workshop on OpenMP, IWOMP 2023, Bristol, UK, September 13–15, 2023, Proceedings},
+pages = {18–33},
+numpages = {16},
+keywords = {High-performance computing, Programming language processing, Language model},
+location = {Bristol, United Kingdom}
 }
 
 @article{chen2024landscape,
@@ -30,32 +44,59 @@
 }
 
 @inproceedings{chen2024ompgpt,
-  bibtex_show={true},
-  title={Ompgpt: A generative pre-trained transformer model for openmp},
-  author={Chen, Le and Bhattacharjee, Arijit and Ahmed, Nesreen and Hasabnis, Niranjan and Oren, Gal and Vo, Vy and Jannesari, Ali},
-  booktitle={European Conference on Parallel Processing},
-  pages={121--134},
-  year={2024},
-  organization={Springer}
+author = {Chen, Le and Bhattacharjee, Arijit and Ahmed, Nesreen and Hasabnis, Niranjan and Oren, Gal and Vo, Vy and Jannesari, Ali},
+title = {OMPGPT: A Generative Pre-trained Transformer Model for&nbsp;OpenMP},
+year = {2024},
+isbn = {978-3-031-69576-6},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-69577-3_9},
+doi = {10.1007/978-3-031-69577-3_9},
+abstract = {Large language models (LLMs)such as ChatGPT have significantly advanced the field of Natural Language Processing (NLP). This trend led to the development of code-based large language models such as StarCoder, WizardCoder, and CodeLlama, which are trained extensively on vast repositories of code and programming languages. While the generic abilities of these code LLMs are helpful for many programmers in tasks like code generation, the area of high-performance computing (HPC) has a narrower set of requirements that make a smaller and more domain-specific model a smarter choice. This paper presents OMPGPT, a novel domain-specific model meticulously designed to harness the inherent strengths of language models for OpenMP pragma generation. Furthermore, we leverage prompt engineering techniques from the NLP domain to create Chain-of-OMP, an innovative strategy designed to enhance OMPGPT’s effectiveness. Our extensive evaluations demonstrate that OMPGPT outperforms existing large language models specialized in OpenMP tasks and maintains a notably smaller size, aligning it more closely with the typical hardware constraints of HPC environments. We consider our contribution as a pivotal bridge, connecting the advantage of language models with the specific demands of HPC tasks.},
+booktitle = {Euro-Par 2024: Parallel Processing: 30th European Conference on Parallel and Distributed Processing, Madrid, Spain, August 26–30, 2024, Proceedings, Part I},
+pages = {121–134},
+numpages = {14},
+keywords = {Large Language model, OpenMP, HPC},
+location = {Madrid, Spain}
 }
 
 @inproceedings{chen2023data,
-  bibtex_show={true},
-  title={Data race detection using large language models},
-  author={Chen, Le and Ding, Xianzhong and Emani, Murali and Vanderbruggen, Tristan and Lin, Pei-Hung and Liao, Chunhua},
-  booktitle={Proceedings of the SC'23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis},
-  pages={215--223},
-  year={2023}
+author = {Chen, Le and Ding, Xianzhong and Emani, Murali and Vanderbruggen, Tristan and Lin, Pei-Hung and Liao, Chunhua},
+title = {Data Race Detection Using Large Language Models},
+year = {2023},
+isbn = {9798400707858},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3624062.3624088},
+doi = {10.1145/3624062.3624088},
+abstract = {Large language models (LLMs) are demonstrating significant promise as an alternate strategy to facilitate analyses and optimizations of high-performance computing programs, circumventing the need for resource-intensive manual tool creation. In this paper, we explore a novel LLM-based data race detection approach combining prompting engineering and fine-tuning techniques. We create a dedicated dataset named DRB-ML, which is derived from DataRaceBench, with fine-grain labels showing the presence of data race pairs and their associated variables, line numbers, and read/write information. DRB-ML is then used to evaluate representative LLMs and fine-tune open-source ones. Our experiment shows that LLMs can be a viable approach to data race detection. However, they still cannot compete with traditional data race detection tools when we need detailed information about variable pairs causing data races.},
+booktitle = {Proceedings of the SC '23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis},
+pages = {215–223},
+numpages = {9},
+keywords = {OpenMP, data race detection, large language model},
+location = {Denver, CO, USA},
+series = {SC-W '23}
 }
 
-@article{chen2023learning,
-  bibtex_show={true},
-  title={Learning to parallelize with openmp by augmented heterogeneous ast representation},
-  author={Chen, Le and Mahmud, Quazi Ishtiaque and Phan, Hung and Ahmed, Nesreen and Jannesari, Ali},
-  journal={Proceedings of Machine Learning and Systems},
-  volume={5},
-  pages={442--456},
-  year={2023}
+@inproceedings{chen2023learning,
+  author       = {Le Chen and
+                  Quazi Ishtiaque Mahmud and
+                  Hung Phan and
+                  Nesreen K. Ahmed and
+                  Ali Jannesari},
+  editor       = {Dawn Song and
+                  Michael Carbin and
+                  Tianqi Chen},
+  title        = {Learning to Parallelize with OpenMP by Augmented Heterogeneous {AST}
+                  Representation},
+  booktitle    = {Proceedings of the Sixth Conference on Machine Learning and Systems,
+                  MLSys 2023, Miami, FL, USA, June 4-8, 2023},
+  publisher    = {mlsys.org},
+  year         = {2023},
+  url          = {https://proceedings.mlsys.org/paper\_files/paper/2023/hash/8ee477d6175a03d7098fa23641a2d298-Abstract-mlsys2023.html},
+  timestamp    = {Fri, 28 Jun 2024 15:58:54 +0200},
+  biburl       = {https://dblp.org/rec/conf/mlsys/ChenMPAJ23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{tehranijamsaz2023perfograph,
@@ -103,24 +144,40 @@
     abstract = "In-Context Learning (ICL) has been shown to be a powerful technique to augment the capabilities of LLMs for a diverse range of tasks. This work proposes AutoParLLM, a novel way to generate context using guidance from graph neural networks (GNNs) to generate efficient parallel codes. We evaluate AutoParLLM on 12 applications from two well-known benchmark suites of parallel codes: NAS Parallel Benchmark and Rodinia Benchmark. Our results show that AutoParLLM improves the state-of-the-art LLMs (e.g., GPT-4) by 19.9{\%} in NAS and 6.48{\%} in Rodinia benchmark in terms of CodeBERTScore for the task of parallel code generation. Moreover, AutoParLLM improves the ability of the most powerful LLM to date, GPT-4, by achieving 17{\%} (on NAS benchmark) and 16{\%} (on Rodinia benchmark) better speedup. In addition, we propose OMPScore for evaluating the quality of the parallel code and show its effectiveness in evaluating parallel codes."
 }
 
-@article{tehrani2024coderosetta,
-  bibtex_show={true},
-  title={Coderosetta: Pushing the boundaries of unsupervised code translation for parallel programming},
-  author={Tehrani, Ali and Bhattacharjee, Arijit and Chen, Le and Ahmed, Nesreen K and Yazdanbakhsh, Amir and Jannesari, Ali},
-  journal={Advances in Neural Information Processing Systems},
-  volume={37},
-  pages={100965--100999},
-  year={2024}
+@inproceedings{tehrani2024coderosetta,
+  author       = {Ali TehraniJamsaz and
+                  Quazi Ishtiaque Mahmud and
+                  Le Chen and
+                  Nesreen K. Ahmed and
+                  Ali Jannesari},
+  editor       = {Alice Oh and
+                  Tristan Naumann and
+                  Amir Globerson and
+                  Kate Saenko and
+                  Moritz Hardt and
+                  Sergey Levine},
+  title        = {{PERFOGRAPH:} {A} Numerical Aware Program Graph Representation for
+                  Performance Optimization and Program Analysis},
+  booktitle    = {Advances in Neural Information Processing Systems 36: Annual Conference
+                  on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans,
+                  LA, USA, December 10 - 16, 2023},
+  year         = {2023},
+  url          = {http://papers.nips.cc/paper\_files/paper/2023/hash/b41907dd4df5c60f86216b73fe0c7465-Abstract-Conference.html},
+  timestamp    = {Fri, 01 Mar 2024 16:26:20 +0100},
+  biburl       = {https://dblp.org/rec/conf/nips/TehraniJamsazMC23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{chen2022multi,
-  bibtex_show={true},
-  title={Multi-view learning for parallelism discovery of sequential programs},
+@INPROCEEDINGS{chen2022multi,
   author={Chen, Le and Mahmud, Quazi Ishtiaque and Jannesari, Ali},
-  booktitle={2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
-  pages={295--303},
+  booktitle={2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)}, 
+  title={Multi-View Learning for Parallelism Discovery of Sequential Programs}, 
   year={2022},
-  organization={IEEE}
+  volume={},
+  number={},
+  pages={295-303},
+  keywords={Training;Runtime;Dynamics;Semantics;Machine learning;Static analysis;Parallel processing;machine learning;artificial intelligence;parallel program language},
+  doi={10.1109/IPDPSW55747.2022.00059}
 }
 
 @article{chen2024fortran2cpp,
@@ -164,8 +221,8 @@
   number={},
   pages={546-557},
   keywords={Technological innovation;Codes;Parallel programming;Large language models;Scalability;Benchmark testing;Software systems;Multitasking;Natural language processing;Synchronization;large language model;parallel code generation;benchmark;evaluation;LLM agent},
-  doi={10.1109/IPDPS64566.2025.00055}}
-
+  doi={10.1109/IPDPS64566.2025.00055}
+}
 
 @inproceedings{Aditya2025first,
 author = {Tanikanti, Aditya and C\^{o}t\'{e}, Benoit and Guo, Yanfei and Chen, Le and Saint, Nickolaus and Chard, Ryan and Raffenetti, Ken and Thakur, Rajeev and Uram, Thomas and Foster, Ian and Papka, Michael E. and Vishwanath, Venkatram},
