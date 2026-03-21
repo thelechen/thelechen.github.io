@@ -68,9 +68,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272
+# Create a GA4 property for this site, then paste the Google tag ID below.
+# After deployment, Google Analytics can show aggregated visitor location data
+# (country / region / city) in its reporting dashboard.
+google_analytics: G-J76NG510F6 # your Google Analytics measurement ID (GA4 format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -373,7 +375,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # set to true after adding a valid GA4 measurement ID above
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
