@@ -30,5 +30,4 @@ latest_posts:
 ---
 
 Le Chen is a Postdoctoral Researcher at Argonne National Laboratory, supervised by [Dr. Rajeev Thakur](https://web.cels.anl.gov/~thakur/).
-His research spans **HPC4AI** ↔ **AI4HPC**.
-In HPC4AI, he focuses on large-scale and efficient inference and training of AI models on modern supercomputing systems. In AI4HPC, his work centers on developing and evaluating large language models (LLMs) for scientific code generation, translation, and reasoning. Broadly, his research aims to bridge high-performance computing and artificial intelligence to accelerate scientific discovery.
+His research lies at the intersection of HPC4AI and AI4HPC. On the HPC4AI side, he develops scalable and efficient methods for training and inference of large AI models on modern supercomputing systems. On the AI4HPC side, he focuses on building and evaluating large language models (LLMs) for scientific code generation, translation, and reasoning. His broader goal is to bridge high-performance computing and artificial intelligence to enable reliable, efficient, and intelligent scientific workflows. His work has appeared in leading HPC and AI venues, including SC, IPDPS, Euro-Par, NeurIPS, MLSys, and NAACL.
