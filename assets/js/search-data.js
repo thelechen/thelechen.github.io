@@ -45,17 +45,6 @@ ninja.data = [{
             window.location.href = "/blog/2024/photo-gallery/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
       },{id: "post-a-post-with-tabs",
         
           title: "a post with tabs",
@@ -276,17 +265,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-a-post-with-redirect",
         
           title: "a post with redirect",
@@ -420,6 +398,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-tpc-seminar-series-took-on-the-role-of-organizing-the-tpc-virtual-seminar-series-bringing-together-speakers-from-ai-hpc-and-ai-for-science-looking-forward-to-building-a-vibrant-research-community",
           title: '[TPC Seminar Series] 🌍🎤 Took on the role of organizing the TPC virtual...',
+          description: "",
+          section: "News",},{id: "news-acl-2026-main-paper-accepted-paracodex-a-profiling-guided-autonomous-coding-agent-for-reliable-parallel-code-generation-and-translation",
+          title: '[ACL 2026 - Main] ✨📄 Paper accepted! ParaCodex: A Profiling-Guided Autonomous Coding Agent...',
+          description: "",
+          section: "News",},{id: "news-acl-2026-main-paper-accepted-beyond-code-pairs-dialogue-based-data-generation-for-llm-code-translation",
+          title: '[ACL 2026 - Main] ✨📄 Paper accepted! Beyond Code Pairs: Dialogue-Based Data Generation...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
