@@ -47,8 +47,8 @@
       <table class="table table-sm table-borderless align-middle">
         {% for item in news_sorted limit: news_limit %}
           <tr class="news-row" data-type="{{ item.type | downcase }}">
-            <th scope="row" style="width: 22%; white-space: nowrap;">
-              <span class="news-date">{{ item.date | date: '%b %d, %Y' }}</span>
+            <th scope="row" style="width: 1%; white-space: nowrap; padding-right: 1rem;">
+              <span class="news-date">{{ item.date | date: '%b' }}</span>
               {% if item.type %}
                 <span class="news-tag {{ item.type | downcase }}">
                   {{ item.type | upcase }}
