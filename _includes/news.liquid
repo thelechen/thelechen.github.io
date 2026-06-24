@@ -38,7 +38,12 @@
       </div>
     {% endunless %}
 
-    <div class="table-responsive">
+    <div
+      class="table-responsive"
+      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+        style="max-height: 20vh"
+      {% endif %}
+    >
       <table class="table table-sm table-borderless align-middle">
         {% for item in news_sorted limit: news_limit %}
           <tr class="news-row" data-type="{{ item.type | downcase }}">

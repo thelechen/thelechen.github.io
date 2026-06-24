@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-10-01 08:10:00-0400
-type: service
+date: 2026-04-30 08:10:00-0400
+type: publication
 inline: true
 related_posts: false
 ---
 
-[ICLR 2026] 🎓 Serving as reviewer for [The International Conference on Learning Representations (ICLR) 2026](https://iclr.cc/)
+[PEARC 2026] ✨📄 Paper accepted! [Improving Usability and Productivity of PETSc with Agent-Based Workflows](https://www.researchgate.net/profile/Barry-Smith-26/publication/403500465_Improving_Usability_and_Productivity_of_PETSc_with_Agent-Based_Workflows/links/69d0694d3c6189430673913f/Improving-Usability-and-Productivity-of-PETSc-with-Agent-Based-Workflows.pdf) — see you in Minneapolis! 🌆

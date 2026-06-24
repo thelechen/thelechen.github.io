@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-06-23 08:10:00-0400
-type: service
+date: 2026-06-03 08:10:00-0400
+type: publication
 inline: true
 related_posts: false
 ---
 
-[DSN 2025] 🎓 Serving as PC member of [The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks](https://dsn2025.github.io/)
+[Preprint] 📄 New preprint! [Latent Reasoning Guidance for Parallel Code Translation](https://arxiv.org/abs/2606.05518)

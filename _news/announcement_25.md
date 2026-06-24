@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2026-02-01 08:10:00-0400
-type: service
+date: 2026-05-08 08:10:00-0400
+type: publication
 inline: true
 related_posts: false
 ---
 
-[ICPP 2026] 🎓 Serving as PC member of [The 55th International Conference on Parallel Processing (ICPP 2026)](https://icpp2026.github.io/)
+[Preprint] 📄 New preprint! [ParBench: A Benchmark for Reliable Evaluation of LLM Parallel Code Translation](https://www.researchgate.net/publication/405207787_ParBench_A_Benchmark_for_Reliable_Evaluation_of_LLM_Parallel_Code_Translation)
