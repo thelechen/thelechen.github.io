@@ -207,3 +207,12 @@ html[data-theme="dark"] .tpc-highlight {
   color: var(--global-text-color);
   font-weight: 600;
 }
+
+/* Bigger contact-note at the bottom of the about page; add breathing room */
+.social {
+  margin-top: 5rem;
+
+  .contact-note {
+    font-size: 1rem;
+  }
+}
