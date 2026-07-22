@@ -31,7 +31,7 @@ latest_posts:
 
 Le Chen is a Postdoctoral Researcher at Argonne National Laboratory, supervised by [Dr. Rajeev Thakur](https://web.cels.anl.gov/~thakur/). He received his Ph.D. in Computer Science from Iowa State University, advised by [Dr. Ali Jannesari](https://swapp.cs.iastate.edu/people/ali-jannesari).
 
-His research bridges high-performance computing and artificial intelligence, organized around two complementary directions: **HPC4AI**, which develops scalable, efficient methods for training and inference of large AI models on modern supercomputing systems; and **AI4HPC**, which focuses on large language models (LLMs) for scientific code generation, translation, and reasoning.
+His research bridges high-performance computing and artificial intelligence along two complementary directions: **HPC4AI**, which develops scalable, efficient methods for training and inference of large AI models on modern supercomputing systems; and **AI4HPC**, which focuses on large language models (LLMs) for scientific code generation, translation, and reasoning.
 
 Additional broad research interests include **AI agents** and **AI4Science**. His work has appeared in leading HPC and AI venues, including **SC, NeurIPS, ACL, MLSys, IPDPS, NAACL,** and **EuroPar**.
 
