@@ -208,12 +208,11 @@ html[data-theme="dark"] .tpc-highlight {
   font-weight: 600;
 }
 
-/* Bigger contact-note at the bottom of the about page; add breathing room */
-/* Exclude the navbar social icons (.navbar-brand.social) so they stay aligned with the nav links */
-.social:not(.navbar-brand) {
-  margin-top: 5rem;
-
-  .contact-note {
-    font-size: 1rem;
+/* Constrain the profile photo on mobile so it doesn't dominate the first screen */
+@media (max-width: 575.98px) {
+  .profile {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

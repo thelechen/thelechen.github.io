@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Le
 middle_name:
 last_name: Chen
-contact_note: >
-  Always happy to connect. Feel free to drop me an email anytime!
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Le Chen is an AI Researcher at Argonne National Laboratory, working on LLMs for HPC, parallel code generation, and scientific AI.
 footer_text: >
@@ -45,7 +44,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
