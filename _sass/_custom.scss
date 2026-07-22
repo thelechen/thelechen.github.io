@@ -209,7 +209,8 @@ html[data-theme="dark"] .tpc-highlight {
 }
 
 /* Bigger contact-note at the bottom of the about page; add breathing room */
-.social {
+/* Exclude the navbar social icons (.navbar-brand.social) so they stay aligned with the nav links */
+.social:not(.navbar-brand) {
   margin-top: 5rem;
 
   .contact-note {
