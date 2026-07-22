@@ -13,6 +13,7 @@ nav_order: 4
 
 ### Program Committee
 
+- **SC 2026** — Workshop Committee Member, [Trillion Parameter Consortium (TPC) Workshop: Building Open AI Infrastructure, Models, and Agentic Systems for Science](https://sc26.supercomputing.org/)
 - **ICPP 2026** — [The 55th International Conference on Parallel Processing](https://icpp2026.github.io/)
 - **DSN 2025** — [The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks](https://dsn2025.github.io/)
 
@@ -20,7 +21,7 @@ nav_order: 4
 
 - **[ICLR](https://iclr.cc/)** — 2025–present
 - **[NeurIPS](https://neurips.cc/)** — 2024–present
-- **[IPDPS](https://www.ipdps.org/)** — 2026
+- **[ICS](https://ics2026.github.io/)** — 2026
 
 ### Journal Reviewer
 
