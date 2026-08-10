@@ -7,4 +7,4 @@ related_posts: false
 label: '<img src="/assets/img/genesis_mission.png" alt="Genesis Mission" class="news-logo" />'
 ---
 
-🎉 Two of our _Genesis Mission_ proposals accepted!✅ — grateful to the lead PIs and the whole team!
+🎉 Two of our _Genesis Mission_ proposals accepted!✅ — grateful to the lead PIs and the whole team! Explore the [Genesis Mission awards dashboard](/assets/html/genesis-mission-awards.html) 📊 for a look at the full landscape.
