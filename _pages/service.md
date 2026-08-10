@@ -13,7 +13,8 @@ nav_order: 4
 
 ### Program Committee
 
-- **SC 2026** — Workshop Committee Member, [Trillion Parameter Consortium (TPC) Workshop: Building Open AI Infrastructure, Models, and Agentic Systems for Science](https://sc26.supercomputing.org/)
+- **SC 2026** — Workshop Committee Member, [4th TPC Workshop @ SC'26: Building Open AI Infrastructure, Models, and Agentic Systems for Science](https://tpc.dev/tpc-workshop-at-sc26/)
+- **eScience 2026** — Workshop Committee Member, [AGENT4SC: 1st Workshop on Agentic AI for Large-scale Science](https://agent4sc.github.io/)
 - **ICPP 2026** — [The 55th International Conference on Parallel Processing](https://icpp2026.github.io/)
 - **DSN 2025** — [The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks](https://dsn2025.github.io/)
 
@@ -30,6 +31,7 @@ nav_order: 4
 - Future Generation Computer Systems
 - Applied Energy
 - The Journal of Systems and Software
+- _… and others_
 
 ### Invited Talks
 
