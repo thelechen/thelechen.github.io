@@ -16,6 +16,8 @@ nav_order: 4
 - **SC 2026** — Workshop Committee Member, [4th TPC Workshop @ SC'26: Building Open AI Infrastructure, Models, and Agentic Systems for Science](https://tpc.dev/tpc-workshop-at-sc26/)
 - **eScience 2026** — Workshop Committee Member, [AGENT4SC: 1st Workshop on Agentic AI for Large-scale Science](https://agent4sc.github.io/)
 - **ICPP 2026** — [The 55th International Conference on Parallel Processing](https://icpp2026.github.io/)
+- **ATPESC 2026** — [Argonne Training Program on Extreme-Scale Computing](https://extremecomputingtraining.anl.gov/)
+- **ATPESC 2025** — [Argonne Training Program on Extreme-Scale Computing](https://extremecomputingtraining.anl.gov/)
 - **DSN 2025** — [The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks](https://dsn2025.github.io/)
 - **TrueFact 2020** — [Second International TrueFact Workshop: Making a Credible Web for Tomorrow](https://truthdiscoverykdd2020.github.io/)
 
