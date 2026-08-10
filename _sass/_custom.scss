@@ -32,6 +32,22 @@
   box-sizing: border-box;
 }
 
+/* label 用图片 logo 时:去掉色块药丸,只显示 logo,尺寸对齐普通 label */
+.news-tag:has(> img.news-logo) {
+  background: none;
+  padding: 0;
+  min-width: 0;
+  border-radius: 0;
+}
+
+.news-tag img.news-logo {
+  display: inline-block;
+  height: 1.5rem;
+  width: auto;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+
 /* 分类配色 */
 .news-tag.activity {
   background-color: #43a047;
