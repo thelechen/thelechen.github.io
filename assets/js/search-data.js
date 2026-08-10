@@ -448,7 +448,7 @@ ninja.data = [{
           section: "News",},{id: "news-one-talk-accepted-see-you-in-san-jose",
           title: '🎤 One talk accepted!✅ — see you in San Jose 🌉!',
           description: "",
-          section: "News",},{id: "news-two-of-our-genesis-mission-proposals-accepted-grateful-to-the-lead-pis-and-the-whole-team",
+          section: "News",},{id: "news-two-of-our-genesis-mission-proposals-accepted-grateful-to-the-lead-pis-and-the-whole-team-explore-the-genesis-mission-awards-dashboard-for-a-look-at-the-full-landscape",
           title: '🎉 Two of our Genesis Mission proposals accepted!✅ — grateful to the lead...',
           description: "",
           section: "News",},{id: "projects-project-1",
