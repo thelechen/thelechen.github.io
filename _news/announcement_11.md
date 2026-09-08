@@ -8,4 +8,4 @@ label: "ACL'26"
 topic: "on a profiling-guided autonomous agent for parallel code, and on dialogue-based data generation for code translation"
 ---
 
-📄 Two papers accepted (ACL Main)!✅ [Paper 1](https://aclanthology.org/2026.acl-long.732/), [Paper 2](https://aclanthology.org/2026.acl-long.1557/)
+📄 Two Main Conference papers accepted!✅ [Paper 1](https://aclanthology.org/2026.acl-long.732/), [Paper 2](https://aclanthology.org/2026.acl-long.1557/)

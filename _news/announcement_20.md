@@ -8,4 +8,4 @@ label: "NAACL'25"
 topic: "on GNN-guided context generation for zero-shot code parallelization"
 ---
 
-📄 One [paper](https://arxiv.org/abs/2310.04047) accepted!✅
+📄 One [Main Conference paper](https://arxiv.org/abs/2310.04047) accepted!✅
