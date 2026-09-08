@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "EuroPar'24"
+topic: "on a generative pre-trained transformer tailored to OpenMP"
 ---
 
 📄 One [paper](https://arxiv.org/abs/2401.16445) accepted!✅

@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "EMNLP'26"
+topic: "on latent reasoning guidance for parallel code translation"
 ---
 
-📄 One paper accepted (EMNLP Findings)!✅
+📄 One [paper](https://arxiv.org/abs/2606.05518) accepted (EMNLP Findings)!✅

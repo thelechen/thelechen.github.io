@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "PREPRINT"
+topic: "on swift inference for text-to-video generation"
 ---
 
 📄 New [preprint](https://arxiv.org/abs/2401.00869)!

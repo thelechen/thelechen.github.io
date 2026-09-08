@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "NeurIPS'25"
+topic: "on how test-time compute constraints shape the safety and skill reasoning of large reasoning models"
 ---
 
 📄 One [paper](https://arxiv.org/abs/2509.18382) accepted!✅ See you in San Diego 🌆!

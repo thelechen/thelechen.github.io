@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "HPEC'25"
+topic: "on a unified LLM framework for parallel and accelerated code translation in HPC"
 ---
 
 📄 One [paper](https://arxiv.org/abs/2509.12136) accepted with **_Outstanding Student Paper Award_** !🏆

@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "IPDPS'25"
+topic: "on a multi-dimensional benchmark for LLM parallel code generation"
 ---
 
 📄 One [paper](https://ieeexplore.ieee.org/document/11078564/) accepted!✅

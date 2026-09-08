@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "ICPP'25"
+topic: "on AI assistants that enhance and exploit the PETSc knowledge base"
 ---
 
 📄 One [paper](https://arxiv.org/abs/2506.20608) accepted!✅

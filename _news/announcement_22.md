@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "PREPRINT"
+topic: "on transformer-based auto-parallelization for shared-memory paradigms"
 ---
 
 📄 New [preprint](https://arxiv.org/abs/2511.03866)!

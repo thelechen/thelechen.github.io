@@ -105,6 +105,16 @@
   transition: filter 0.2s ease-in-out;
 }
 
+/* 论文类 news 的第二行:一句话主题 */
+.news-topic {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
 .news-filter {
   margin-bottom: 0.75rem;
 }

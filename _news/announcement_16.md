@@ -5,6 +5,7 @@ type: publication
 inline: true
 related_posts: false
 label: "PREPRINT"
+topic: "on the landscape and open challenges of LLMs for HPC research"
 ---
 
 📄 New [preprint](https://arxiv.org/abs/2402.02018)!
