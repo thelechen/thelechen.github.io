@@ -208,7 +208,7 @@ _styles: >
 <section class="sc26-hero" aria-labelledby="sc26-hero-title">
   <p class="sc26-eyebrow">SC26 Tutorial · Section 6</p>
   <h2 id="sc26-hero-title">OpenCode hands-on instructions</h2>
-  <p class="sc26-lead">Set up OpenCode once, then run two small end-to-end exercises: verified Fortran-to-C++ translation with Beyond Code Pairs, and correctness-gated OpenMP parallelization with ParaCodex.</p>
+  <p class="sc26-lead">Set up OpenCode once, then run two end-to-end exercises: progressive 2-D Fortran-to-C++ translation with Beyond Code Pairs, and correctness-gated OpenMP parallelization with ParaCodex.</p>
   <div class="sc26-actions">
     <a class="sc26-button sc26-button-primary" href="#install"><i class="ti ti-rocket" aria-hidden="true"></i> Start setup</a>
     <a class="sc26-button sc26-button-secondary" href="https://opencode.ai/docs" target="_blank" rel="noopener"><i class="ti ti-external-link" aria-hidden="true"></i> OpenCode docs</a>
@@ -272,12 +272,12 @@ git clone https://github.com/thelechen/ParaCodex.git</code></pre>
   <div class="sc26-step-number" aria-hidden="true">03</div>
   <div>
     <h2>Run the exercises in OpenCode</h2>
-    <p>Run one exercise at a time. The normal command may pass on its first attempt; the optional repair command provides a clearly labelled, instructor-injected failure for observing the repair loop.</p>
+    <p>Run one exercise at a time. Beyond Code Pairs always completes three progressively harder reasoning rounds, even when every submitted candidate is correct. Optional repair commands provide clearly labelled, instructor-injected failures.</p>
 
     <div class="sc26-track-grid">
       <article class="sc26-track sc26-track-bcp">
         <h3>Beyond Code Pairs</h3>
-        <p>A Questioner proposes tests, a Solver translates Fortran to C++, and an independent harness compiles and compares numerical output.</p>
+        <p>A Questioner and Solver translate a 2-D heat-diffusion routine through three required gates: one stencil step, multi-step double buffering, and model-generated adversarial regression. An independent harness checks every gate.</p>
 
 <pre><code class="language-bash">cd sc26-hands-on/beyond-code-pairs-translation/SC26
 make clean
@@ -285,7 +285,7 @@ opencode</code></pre>
 
         <p>At the OpenCode prompt, enter:</p>
         <span class="sc26-command">/bcp-demo</span>
-        <p>After a successful run, optionally enter <code>/bcp-repair</code> to observe a guaranteed test failure and repair.</p>
+        <p>Watch Gate 1 test 2-D layout and boundaries; Gate 2 add zero/multiple steps, odd/even buffer parity, and final-step change; and Gate 3 add new rectangular/asymmetric tests. After Gate 3 passes, optionally enter <code>/bcp-repair</code> to diagnose a labelled stale-buffer fixture.</p>
       </article>
 
       <article class="sc26-track sc26-track-para">
@@ -320,13 +320,14 @@ opencode</code></pre>
         <h3>Beyond Code Pairs results</h3>
         <p><code>tutorial_demo/opencode_e2e/runs/opencode_latest/</code></p>
         <ul class="sc26-result-list">
-          <li><code>questioner_plan.md</code>: requested behavior and extra tests</li>
-          <li><code>candidate_attempt_XX.cpp</code>: exact C++ submitted at each attempt</li>
-          <li><code>test_attempt_XX.json</code>: compiler and case-by-case numerical evidence</li>
-          <li><code>questioner_feedback_XX.md</code>: targeted feedback after a failure</li>
+          <li><code>questioner_stage_01.md</code> through <code>questioner_stage_03.md</code>: the three progressively harder requests</li>
+          <li><code>candidate_gate_XX_attempt_YY.cpp</code>: exact C++ submitted at each gate and attempt</li>
+          <li><code>gate_XX_attempt_YY.json</code>: compiler and case-by-case numerical evidence</li>
+          <li><code>questioner_cases.json</code>: Gate 3's two model-generated adversarial grids</li>
+          <li><code>questioner_feedback_gate_XX_attempt_YY.md</code>: targeted feedback after a real failure</li>
           <li><code>transcript.md</code> and <code>events.jsonl</code>: readable and structured run histories</li>
         </ul>
-        <p class="sc26-success"><strong>Success:</strong> the latest test report contains <code>"overall_pass": true</code>.</p>
+        <p class="sc26-success"><strong>Success:</strong> the latest report for each of Gates 1, 2, and 3 contains <code>"overall_pass": true</code>.</p>
       </article>
 
       <article class="sc26-track sc26-track-para">
