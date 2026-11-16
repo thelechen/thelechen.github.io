@@ -244,6 +244,7 @@ opencode --version</code></pre>
       <p><strong>Local prerequisites</strong></p>
       <p>Beyond Code Pairs requires Python 3.9+, <code>gfortran</code>, and <code>g++</code>. ParaCodex requires Python 3 and a C++17 compiler with OpenMP support. On macOS, use Homebrew GCC for real OpenMP rather than Apple Clang.</p>
     </div>
+
   </div>
 </section>
 
@@ -265,6 +266,7 @@ git clone https://github.com/thelechen/ParaCodex.git</code></pre>
       <a class="sc26-button sc26-button-secondary" href="https://github.com/thelechen/beyond-code-pairs-translation" target="_blank" rel="noopener">Beyond Code Pairs repository</a>
       <a class="sc26-button sc26-button-secondary" href="https://github.com/thelechen/ParaCodex" target="_blank" rel="noopener">ParaCodex repository</a>
     </div>
+
   </div>
 </section>
 
@@ -306,6 +308,7 @@ opencode</code></pre>
       <p><strong>Starting over</strong></p>
       <p>Exit OpenCode, run <code>make clean</code> from the relevant <code>SC26</code> directory, and reopen <code>opencode</code>. Copy the run directory elsewhere first if you want to keep an earlier result.</p>
     </div>
+
   </div>
 </section>
 
@@ -352,6 +355,7 @@ opencode</code></pre>
         <li>For ParaCodex, distinguish correctness from performance: a correct parallel version can still be slower.</li>
       </ul>
     </div>
+
   </div>
 </section>
 
