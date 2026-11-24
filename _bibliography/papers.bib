@@ -458,24 +458,44 @@ series = {SC-W '23}
   isbn = {979-8-89176-390-6}
 }
 
-@article{bitan2026latent,
-  abbr     = {Preprint},
-  bibtex_show={true},
-  title={Latent Reasoning Guidance for Parallel Code Translation},
-  author={Bitan, Tomer and Kaplan, Erel and Bar-Yadin, Ron and Ghrayeb, Lian and Chen, Le and Jhaveri, Shrey and others},
-  journal={arXiv preprint arXiv:2606.05518},
-  year={2026},
-  url={https://arxiv.org/abs/2606.05518}
+@inproceedings{bitan-etal-2026-latent,
+    abbr     = {EMNLP'26},
+    bibtex_show={true},
+    title = "Latent Reasoning Guidance for Parallel Code Translation",
+    author = "Bitan, Tomer  and
+      Kaplan, Erel  and
+      Bar-Yadin, Roee  and
+      Ghrayeb, Lian  and
+      Chen, Le  and
+      Jhaveri, Samyak  and
+      Hasabnis, Niranjan  and
+      Oren, Gal",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.2359/",
+    doi = "10.18653/2026.findings-emnlp.2359",
+    pages = "50714--50727",
+    ISBN = "979-8-89176-462-0",
+    abstract = "Tackling complex coding tasks often requires autonomous agents and iterative repair pipelines. These increasingly rely on large amounts of test-time computation, often spending many decoding and repair steps before discovering whether a program compiles, runs, or validates. Executable parallel-code translation is an effective setting for earlier guidance because success is behavioral rather than textual. However, most guidance methods act only after complete programs or textual traces are decoded. This motivates the question: can latent reasoning provide an earlier intervention point, before the model commits to code? We study a test-time latent guidance method for this setting that trains a smaller Process Reward Model (PRM) over continuous latent prefixes and uses it to select among alternate hidden-state trajectories before final code decoding, separately from but compatible with post-decoding optimization. On a 76-task ParaTrans benchmark evaluation, latent PRM guidance improves mean validation rate from 32.89{\%} with unguided latent reasoning to 42.1{\%}, outperforming fine-tuned and vanilla baselines in the same setting. These gains persist under the same three-iteration repair loop. These results provide bounded evidence that useful alternative latent continuations exist and that PRM-scored latent branch selection can improve executable outcomes in this setting without retraining the main generative model."
 }
 
 @article{chen2026parbench,
   abbr     = {Preprint},
   bibtex_show={true},
   title={ParBench: A Benchmark for Reliable Evaluation of LLM Parallel Code Translation},
-  author={Yotam, Tom and Chen, Le and Bitan, Tomer and Hasabnis, Niranjan and Oren, Gal and others},
-  journal={ResearchGate preprint},
+  author={Jhaveri, Samyak and Kaplan, Erel and Yotam, Tom and Chen, Le and Bitan, Tomer and Hasabnis, Niranjan and Oren, Gal},
+  journal={arXiv preprint arXiv:2607.22588},
   year={2026},
-  url={https://www.researchgate.net/publication/405207787_ParBench_A_Benchmark_for_Reliable_Evaluation_of_LLM_Parallel_Code_Translation}
+  url={https://arxiv.org/abs/2607.22588},
+  eprint={2607.22588},
+  eprinttype={arXiv}
 }
 
 @inproceedings{smith2026petsc,
@@ -495,13 +515,14 @@ series = {SC-W '23}
   doi={10.1145/3785462.3815882}
 }
 
-@article{zhang2026agentic,
-  abbr     = {Preprint},
+@inproceedings{zhang2026agentic,
+  abbr     = {SC-W'26},
   bibtex_show={true},
   title={An Agentic Evaluation Framework for AI-Generated Scientific Code in PETSc},
   author={Zhang, Hong and Smith, Barry and Balay, Satish and Chen, Le and Ke{\c{c}}eli, Murat and McInnes, Lois Curfman and Zhang, Junchao},
-  journal={arXiv preprint arXiv:2603.15976},
+  booktitle={AI4S: 8th Workshop on Artificial Intelligence and Machine Learning for Scientific Applications, held in conjunction with SC 2026},
   year={2026},
+  address={Chicago, IL, USA},
   url={https://arxiv.org/abs/2603.15976},
   award={PETScAgent-Bench earned third place in the Coding Agent track of Phase 1 of the AgentBeats competition (organized by Berkeley RDI, 1,300+ registered groups) and was the only national-laboratory-led benchmark to receive an award. The project also received an Impact Argonne Award in the category of Innovation.},
   award_name={🏆 AgentBeats 3rd Place · Impact Argonne}
@@ -543,12 +564,86 @@ series = {SC-W '23}
   url={https://arxiv.org/abs/2511.03866}
 }
 
-@article{luo2026fabrica,
+@inproceedings{jackson2027lars,
+  abbr     = {AMS'27},
+  bibtex_show={true},
+  title={LARS: LLM-Assisted Radar Scene Classification},
+  author={Jackson, Robert C. and Raut, Bhupendra and Chen, Le and O'Brien, Joseph Robert and Sherman, Zachary and Tian, Jian and Collis, Scott},
+  booktitle={107th AMS Annual Meeting, Denver, CO, USA, January 10-14, 2027},
+  year={2027},
+  publisher={American Meteorological Society}
+}
+
+@inproceedings{ding2026contextecho,
   abbr     = {Preprint},
   bibtex_show={true},
-  title={FABRICA: Agentic CUDA-to-CSL Translation and Optimization for Wafer-Scale Systems},
-  author={Luo, Yuebo and Huerta, Eliu and Vishwanath, Venkatram and Ding, Caiwen and Thakur, Rajeev and Chen, Le},
-  journal={arXiv preprint arXiv:2608.25124},
+  title={ContextEcho: A Benchmark for Persona Drift in Long Agentic-Coding Sessions},
+  author={Ding, Xianzhong and Yu, Yangyang and Liu, Changwei and Zhao, Bill and Chen, Le and Chen, Tao},
+  journal={arXiv preprint arXiv:2605.24279},
   year={2026},
-  url={https://arxiv.org/abs/2608.25124}
+  url={https://arxiv.org/abs/2605.24279},
+  eprint={2605.24279},
+  eprinttype={arXiv}
+}
+
+@inproceedings{chen2026parcoder,
+  abbr     = {IPDPSW'26},
+  bibtex_show={true},
+  title={ParCoder: Harnessing Transformer Models for Parallel Code Generation with OpenMP and MPI},
+  author={Chen, Le and Bhattacharjee, Arijit and Ahmed, Nesreen and Hasabnis, Niranjan and Capot\u{a}, Mihai and Munoz, Pablo and Oren, Gal and Vo, Vy and Chapman, Barbara and Jannesari, Ali},
+  booktitle={2026 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
+  pages={216--225},
+  year={2026},
+  publisher={{IEEE}},
+  doi={10.1109/IPDPSW71298.2026.00034}
+}
+
+@article{luo2026hlsmith,
+  abbr     = {Preprint},
+  bibtex_show={true},
+  title={HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation},
+  author={Luo, Yuebo and Baroughi, Ahmad Sedigh and Stachura, Philip and Chen, Le and Vishwanath, Venkatram and Fang, Zhenman and Ding, Caiwen},
+  journal={arXiv preprint arXiv:2608.06791},
+  year={2026},
+  url={https://arxiv.org/abs/2608.06791},
+  eprint={2608.06791},
+  eprinttype={arXiv}
+}
+
+@inproceedings{yang2026precise,
+  abbr     = {NeurIPS'26},
+  bibtex_show={true},
+  title={Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning},
+  author={Yang, Chih-Hsuan and Jiang, Jingyan and Vasudevan, Vikram and Yang, Cheng-Hau and Zheng, Huihuo and Chen, Le and Huerta, Eliu A. and Vishwanath, Venkatram and Foster, Ian T. and Thakur, Rajeev},
+  booktitle={Advances in Neural Information Processing Systems 39: Annual Conference on Neural Information Processing Systems 2026, NeurIPS 2026},
+  year={2026},
+  url={https://arxiv.org/abs/2607.15388},
+  eprint={2607.15388},
+  eprinttype={arXiv}
+}
+
+@inproceedings{chen2026measure,
+  abbr     = {NeurIPS'26w},
+  bibtex_show={true},
+  title={Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents},
+  author={Chen, Le and Wan, Zishen and Sun, Baixi and Ma, Xiaolong and Yang, Chih-Hsuan and Yan, Feng and Di, Sheng and Cappello, Franck and Thakur, Rajeev},
+  booktitle={AgenticOS: Co-designing Systems and ML Foundations of an OS Layer for Agentic AI, NeurIPS 2026 Workshop},
+  year={2026},
+  address={Sydney, Australia},
+  url={https://arxiv.org/abs/2608.31057},
+  eprint={2608.31057},
+  eprinttype={arXiv}
+}
+
+@inproceedings{luo2026fabrica,
+  abbr     = {SC-W'26},
+  bibtex_show={true},
+  title={Fabrica: Agentic CUDA-to-CSL Translation and Optimization for Wafer-Scale Systems},
+  author={Luo, Yuebo and Huerta, Eliu and Vishwanath, Venkatram and Ding, Caiwen and Thakur, Rajeev and Chen, Le},
+  booktitle={AgenticAI4HPC'26: The First International Workshop on Agentic AI for HPC, held in conjunction with SC 2026},
+  year={2026},
+  address={Chicago, IL, USA},
+  url={https://arxiv.org/abs/2608.25124},
+  award={Received a Distinguished Paper Recognition at the First International Workshop on Agentic AI for HPC (AgenticAI4HPC'26), held in conjunction with SC 2026, Chicago.},
+  award_name={🏆 Distinguished Paper Recognition}
 }
