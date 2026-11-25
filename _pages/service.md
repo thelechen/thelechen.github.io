@@ -13,6 +13,7 @@ nav_order: 4
 
 ### Program Committee
 
+- **[MLSys 2027](https://mlsys.org/)** — External Review Committee
 - **SC 2026** — Workshop Committee Member, [4th TPC Workshop @ SC'26: Building Open AI Infrastructure, Models, and Agentic Systems for Science](https://tpc.dev/tpc-workshop-at-sc26/)
 - **eScience 2026** — Workshop Committee Member, [AGENT4SC: 1st Workshop on Agentic AI for Large-scale Science](https://agent4sc.github.io/)
 - **ICPP 2026** — [The 55th International Conference on Parallel Processing](https://icpp2026.github.io/)
@@ -23,7 +24,6 @@ nav_order: 4
 
 ### Conference Reviewer
 
-- **[MLSys](https://mlsys.org/)** — 2027
 - **[ICLR](https://iclr.cc/)** — 2025–present
 - **[NeurIPS](https://neurips.cc/)** — 2024–present
 - **[ICS](https://ics2026.github.io/)** — 2026
